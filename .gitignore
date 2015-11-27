@@ -1,12 +1,12 @@
-*.class
+o*.class
 
 # Package Files #
-*.jar
+*-SNAPSHOT.jar
 *.war
 *.ear
-
-/target
-
+/target/classes/
+/target/surefire-reports/
+/target/test-classes/
 # Eclipse related #
 .classpath
 .project
